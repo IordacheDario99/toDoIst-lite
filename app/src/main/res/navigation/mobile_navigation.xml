@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/priority_0">
+
+    <fragment
+        android:id="@+id/priority_0"
+        android:name="com.example.todoistlite.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/priority_1"
+        android:name="com.example.todoistlite.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/priority_2"
+        android:name="com.example.todoistlite.ui.slideshow.SlideshowFragment"
+        android:label="Priority 2"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/priority_3"
+        android:name="com.example.todoistlite.ui.priority_3.Priority_3_Fragment"
+        android:label="Priority 3"
+        tools:layout="@layout/fragment_priority3" />
+
+    <fragment
+        android:id="@+id/inbox"
+        android:name="com.example.todoistlite.ui.inbox.InboxFragment"
+        android:label="Priority 1"
+        tools:layout="@layout/fragment_inbox" />
+
+    <fragment
+        android:id="@+id/today"
+        android:name="com.example.todoistlite.ui.today.TodayFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_today" />
+
+    <fragment
+        android:id="@+id/upcoming"
+        android:name="com.example.todoistlite.ui.upcoming.UpcomingFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_upcoming" />
+
+</navigation>
