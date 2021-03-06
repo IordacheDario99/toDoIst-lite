@@ -1,2 +1,2 @@
 # toDoIst-lite
-ToDoIst Lite is todo list application for andorid.
+ToDoIst Lite is an event manager application made in android studio using java
